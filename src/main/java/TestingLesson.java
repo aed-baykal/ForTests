@@ -8,6 +8,7 @@ public class TestingLesson {
 //        System.out.println(arrayOfOneAndFour(input));
 //    }
 
+
     public static int[] copyAfterFour(int[] inputArray) {
         int lastIndexOf = -1;
         int[] copy;
