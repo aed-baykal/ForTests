@@ -15,6 +15,7 @@ class TestingLessonTest {
         Assertions.assertEquals(result, TestingLesson.copyAfterFour(input));
     }
 
+
     @MethodSource("genValues2")
     @ParameterizedTest
     void massarrayOfOneAndFour(int[] input, boolean result) {
